@@ -78,7 +78,7 @@ def greedy_select_protos(K, candidate_indices, p=0.01, is_K_sparse=False):
         if is_K_sparse:
             KK = KK.todense()
 
-        inverse_of_prev_selected = np.linalg.inv(KK)  # shortcut
+        # inverse_of_prev_selected = np.linalg.inv(KK)  # shortcut
 
         # print('f_i value of PROTOTYPE is ', np.max(s1array))
         # print('f_i value of DIFF_PROTOTYPE is ', np.max(s1array) - prev_value)

@@ -59,3 +59,14 @@ def top_label_id_and_score(img, preds_and_grads_fn):
   preds = preds_and_grads_fn([img], 0)
   id = np.argmax(preds[0])
   return id, preds[0][id]
+
+
+def comp_score(img, preds_and_grads_fn, idx):
+  '''Returns the label id and score of the object class that receives the highest SOFTMAX score.
+
+     The provided image must of shape (224, 224, 3).
+  '''
+  # Evaluate the SOFTMAX output layer for the image and
+  # determine the label for the highest-scoring class
+  preds = preds_and_grads_fn([img], 0)
+  return preds[0][idx]
