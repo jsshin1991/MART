@@ -19,7 +19,7 @@ This directory contains implementations of MART framework the following UCI (tab
 |LIME  |0.094136|0.199258|0.231901|**0.035452**|0.233401|0.794148|
 
 
-Python Library Version:
+**Python Library Version**:
 - tensorflow == 1.10.0
 - matplotlib == 3.1.3
 - numpy == 1.14.5
