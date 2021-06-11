@@ -10,7 +10,7 @@ This directory contains implementations of MART framework the following UCI (tab
  - Forest Fires (https://archive.ics.uci.edu/ml/datasets/forest+fires)
  - Mercedez-Benz (https://www.kaggle.com/c/mercedes-benz-greener-manufacturing)
 
--- AUC values (of validation score decrease rate) for each dataset (The lower, the better). See run_tabular.py for details. --
+-- AUC values (of validation score decrease rate) for each dataset (The lower, the better). See test_tabular.py for details. --
 
 |Method|wisc    |biodeg  |musk    |forest  |benz    |Average |
 |------|--------|--------|--------|--------|--------|--------|
